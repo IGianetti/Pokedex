@@ -1,4 +1,7 @@
 # pokedex
+```
+Pokedex sencilla para practicar conceptos de Vuejs, HTML y CSS
+```
 
 ## Project setup
 ```

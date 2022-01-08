@@ -6,6 +6,7 @@
       </div>
       <div v-if="pokemon" class="data">
         <h2>{{ pokemon.name }}</h2>
+        <h3>nº: {{ pokemon.id }}</h3>
 
         <div class="property">
           <div class="prop1">
@@ -28,7 +29,7 @@
           <div class="prop3">
             <div class="weight">
               <h3>Weight</h3>
-              <p>{{ pokemon.weight / 10 }} kg</p>
+              <p>{{ pokemon.weight / 10 }} Kg</p>
             </div>
           </div>
         </div>
@@ -171,13 +172,13 @@ export default {
         .prop2 {
           width: 130px;
           .height p {
-            margin-left: 40px;
+            margin-left: 41px;
           }
         }
         .prop3 {
           width: 130px;
           .weight p {
-            margin-left: 40px;
+            margin-left: 41px;
           }
         }
 
